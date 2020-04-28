@@ -19,7 +19,7 @@ namespace MantisDBCleaner
         [Option('p', "password", HelpText = "Database user's password")]
         public string Password { get; set; } = "";
 
-        [Option("table-prefix", HelpText = "Table name prefix")]
+        [Option("table-prefix", Default = "mantis_", HelpText = "Table name prefix")]
         public string TablePrefix { get; set; } = "mantis_";
 
         [Option("commit-changes", Default = false, HelpText = "Write changes to the database (only supported for transactional database engines). If not specified changes are rolled backed.")]
