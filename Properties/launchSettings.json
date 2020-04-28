@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MantisDBCleaner": {
+      "commandName": "Project"
+    }
+  }
+}
